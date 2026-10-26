@@ -1,9 +1,8 @@
 # WD-Activity--Based--Learning
-Student Name: Suneetha
-Course: B.Tech
-Branch: CSE (AI & ML)
-Year: First Year
-College: NRI University
+1.**Student Name:** Suneetha
+2.**Roll NUmber:** 26001051
+3.**Branch:** CSM
+4. **Section:** CSM-3
 
 ## 1. Personal Portfolio
 ## 2. Online Food Ordering

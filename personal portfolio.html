@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f5f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #1d4ed8;
+            margin-bottom: 20px;
+        }
+
+        .home {
+            background: linear-gradient(120deg, #2563eb, #9333ea);
+            color: white;
+            padding: 100px 20px;
+        }
+
+        .home h2 {
+            color: white;
+            font-size: 36px;
+        }
+
+        .home p {
+            margin: 12px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #0ea5e9;
+            color: white;
+            text-decoration: none;
+            padding: 12px 22px;
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background-color: #0369a1;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 550px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px #00000015;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 15px #00000025;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container .card {
+            width: 180px;
+            margin: 0;
+        }
+
+        .contact p {
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @media (max-width: 768px) {
+            nav a {
+                font-size: 13px;
+                margin: 5px;
+            }
+
+            .home h2 {
+                font-size: 27px;
+            }
+
+            section {
+                padding: 35px 15px;
+            }
+
+            .container .card {
+                width: 100%;
+                max-width: 350px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profile">Profile</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h2>Hello, I'm Suneetha!</h2>
+        <p>B.Tech Student | CSE (AI & ML)</p>
+        <p>Welcome to my personal portfolio website.</p>
+        <a href="#profile" class="btn">Explore More</a>
+    </section>
+
+    <section id="profile">
+        <h2>My Profile</h2>
+        <div class="card">
+            <p>I am a B.Tech student interested in Artificial Intelligence,
+            Machine Learning, and Web Development. I enjoy learning new
+            technologies and creating useful projects.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Educational Qualifications</h2>
+
+        <div class="card">
+            <h3>B.Tech - CSE (AI & ML)</h3>
+            <p>NRI University</p>
+            <p>Currently Pursuing</p>
+        </div>
+
+        <div class="card">
+            <h3>Intermediate</h3>
+            <p>Your College Name</p>
+            <p>Your Passing Year</p>
+        </div>
+
+        <div class="card">
+            <h3>School Education</h3>
+            <p>Your School Name</p>
+            <p>Your Passing Year</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="container">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">Python</div>
+            <div class="card">C Programming</div>
+            <div class="card">Artificial Intelligence</div>
+            <div class="card">Machine Learning</div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+
+        <div class="container">
+            <div class="card">Reading Books</div>
+            <div class="card">Listening to Music</div>
+            <div class="card">Learning Technology</div>
+            <div class="card">Creative Designing</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="card">
+            <h3>Personal Portfolio Website</h3>
+            <p>A personal website created using HTML and CSS.</p>
+        </div>
+
+        <div class="card">
+            <h3>Student Information Page</h3>
+            <p>A webpage displaying student information and education details.</p>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+
+        <div class="card">
+            <p>Participating in technical activities.</p>
+            <p>Learning programming languages.</p>
+            <p>Developing web design projects.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>My Resume</h2>
+
+        <div class="card">
+            <p>Click below to download my resume.</p>
+            <a href="resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Information</h2>
+
+        <div class="card">
+            <p>Name: Suneetha</p>
+            <p>Branch: CSE (AI & ML)</p>
+            <p>Email: yourname@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 My Personal Portfolio | Designed by Suneetha</p>
+    </footer>
+
+</body>
+</html>

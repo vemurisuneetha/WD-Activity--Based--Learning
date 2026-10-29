@@ -6,10 +6,10 @@
 **Techonologies Used:**
        *HTML5
        *CSS3  
-**Project Description:**
+**Project Description:**  
        This project is part of Web Development Activity -Based Learning assignment
-       The objective is to design and develop responsive webpages using HTML and CSS
-**Project**  
+       The objective is to design and develop responsive webpages using HTML and CSS  
+**Project**    
        ## 1. Personal Portfolio
        ## 2. Online Food Ordering
        ## 3. Registration Form
